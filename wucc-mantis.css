@@ -1,0 +1,37 @@
+.wucc-star {
+    width: 20px;
+}
+#wucc-map {
+    border: 1px solid #ccc;
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(https://raw.githubusercontent.com/dartlabs/mantis-wucc/master/mantis_map.png);
+    background-position: -150px -10px;
+    background-repeat: no-repeat;
+}
+#wucc-mantis-logo {
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 275px;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein {
+  from {
+    top: 150px;
+    left: 275px;
+    height: 150px; 
+  }
+
+  to {
+    top: 95px; 
+    left: 290px; 
+    height: 100px; 
+    transform: rotate(-40deg);
+  }
+}
