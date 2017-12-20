@@ -6,7 +6,7 @@
     width: 700px;
     height: 300px;
     overflow: hidden;
-    background-image: url(https://raw.githubusercontent.com/dartlabs/mantis-wucc/master/mantis_map.png);
+    background-image: url(https://rawgit.com/dartlabs/mantis-wucc/master/mantis_map.png);
     background-position: -150px -10px;
     background-repeat: no-repeat;
 }
