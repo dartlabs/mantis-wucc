@@ -29,8 +29,8 @@
   }
 
   to {
-    top: 487px; 
-    left: 129px; 
+    top: 129px; 
+    left: 487px; 
     height: 100px; 
     transform: rotate(-40deg);
   }
